@@ -32,7 +32,7 @@
      <term><parameter>columns</parameter></term>
      <listitem>
       <para>
-       Width of the image
+       Width of the image. If zero, then Imagick will calculate an image width to keep the same proportions as the source image.
       </para>
      </listitem>
     </varlistentry>
@@ -40,7 +40,7 @@
      <term><parameter>rows</parameter></term>
      <listitem>
       <para>
-       Height of the image
+       Height of the image. If zero, then Imagick will calculate an image height to keep the same proportions as the source image.
       </para>
      </listitem>
     </varlistentry>
